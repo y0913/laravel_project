@@ -8,7 +8,7 @@
 
 # ローカルアクセス
 
-- http://localhost:3000 (nuxt)
+- http://localhost:8888 (nuxt)
 
 - http://localhost:8080 (laravel)
 
