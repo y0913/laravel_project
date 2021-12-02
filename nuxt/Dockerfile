@@ -1,5 +1,6 @@
 FROM node:14.4.0-alpine
 
+# docker-compose.ymlから渡されてくる変数
 ARG WORKDIR
 ARG CONTAINER_PORT
 
