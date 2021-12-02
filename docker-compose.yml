@@ -13,7 +13,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-       - ./src/laravel:/var/www/html
+       - ./src/laravel:/var/www/html # /src/laravelを/var/www/htmlにマウント
        - ./nginx/default.conf:/etc/nginx/conf.d/default.conf # nginxの設定(詳細は/nginx/default.confを確認)
     working_dir: /var/www/html
 
