@@ -28,7 +28,17 @@
 
 - npm install
 
+## DB
 
+- cd ~/laravel_project
+
+- mkdir db
+
+# postgres接続
+
+- su postgres
+
+- psql
 
 # コンテナ起動
 
