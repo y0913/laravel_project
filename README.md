@@ -36,6 +36,8 @@
 
 # postgres接続
 
+- docker-compose exec db bash
+
 - su postgres
 
 - psql
