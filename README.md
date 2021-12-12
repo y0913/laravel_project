@@ -2,11 +2,7 @@
 
 - cd laravel_project
 
-- docker-compose build php
-
-- docker-compose build nginx
-
-- docker-compose build front
+- docker-compose build
 
 - docker-compose up -d
 
@@ -17,7 +13,7 @@
 
 - docker-compose exec php composer dump-autoload
 
-- docker-compose exec php mv .env.example .env
+- docker-compose exec php cp .env.example .env
 
 - docker-compose exec php php artisan key:generate
 
@@ -28,12 +24,6 @@
 
 - npm install
 
-## DB
-
-- cd ~/laravel_project
-
-- mkdir db
-
 # postgres接続
 
 - docker-compose exec db bash
@@ -41,6 +31,8 @@
 - su postgres
 
 - psql
+
+- データベース作成のコマンド実行
 
 # コンテナ起動
 
